@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">wow2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcom_slog">Sans frais c\'est zooo</string>
+    <string name="welcom_text">Envoyer de l\'argent à vos \nproches SANS FRAIS</string>
+    <string name="login_name">Votre nom et prénom</string>
+    <string name="login_phone">Votre numero de télépone</string>
+    <string name="login_code">Votre code secret (4 chiffres)</string>
+
+    <string name="transfert_text">Envoyer de l\'argent \n à vos proches</string>
+    <string name="transfert_name">Nom du bénéficiaire</string>
+    <string name="transfert_phone">Numéro wow du bénéficiaire</string>
+    <string name="transfert_montant">Montant (minimun 1F)</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_welcom">Welcom</string>
+    <string name="menu_login">Se connecter</string>
+    <string name="menu_register">S\'inscrire</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+</resources>

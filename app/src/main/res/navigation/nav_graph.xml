@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/frag_welcom">
+
+    <fragment
+        android:id="@+id/frag_Home"
+        android:name="wow.startup.ci.ui.Frag_Home"
+        android:label="fragment_frag__home"
+        tools:layout="@layout/fragment_frag__home" >
+        <action
+            android:id="@+id/action_frag_Home_to_fragTrasnfert"
+            app:destination="@id/fragTrasnfert" />
+    </fragment>
+    <fragment
+        android:id="@+id/frag_welcom"
+        android:name="wow.startup.ci.ui.Frag_welcom"
+        android:label="fragment_frag_welcom"
+        tools:layout="@layout/fragment_frag_welcom" >
+        <action
+            android:id="@+id/action_frag_welcom_to_fragRegister"
+            app:destination="@id/fragRegister" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragRegister"
+        android:name="wow.startup.ci.ui.FragRegister"
+        android:label="fragment_frag_register"
+        tools:layout="@layout/fragment_frag_register" >
+        <action
+            android:id="@+id/action_fragRegister_to_fragLogin"
+            app:destination="@id/fragLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragLogin"
+        android:name="wow.startup.ci.ui.FragLogin"
+        android:label="fragment_frag_login"
+        tools:layout="@layout/fragment_frag_login" >
+        <action
+            android:id="@+id/action_fragLogin_to_frag_Home"
+            app:destination="@id/frag_Home" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragTrasnfert"
+        android:name="wow.startup.ci.ui.FragTrasnfert"
+        android:label="fragment_frag_trasnfert"
+        tools:layout="@layout/fragment_frag_trasnfert" >
+        <action
+            android:id="@+id/action_fragTrasnfert_to_fragSucces"
+            app:destination="@id/fragSucces" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragSucces"
+        android:name="wow.startup.ci.ui.FragSucces"
+        android:label="fragment_frag_succes"
+        tools:layout="@layout/fragment_frag_succes" />
+</navigation>
