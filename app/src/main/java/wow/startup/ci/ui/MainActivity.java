@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_frag_login);
+        setContentView(R.layout.activity_main);
 
         point_background_solid = getResources().getDrawable(R.drawable.point_background_solid);
         boardered_point_background = getResources().getDrawable(R.drawable.boardered_point_background);
